@@ -3,7 +3,7 @@ import React from "react";
 const Recipes = () => {
   const handleSubmit = (values) => {
     console.log("values", values);
-    alert("Thanks for sharing your recipes with us!");
+    alert("Thanks for sharing your recipe with us!");
   };
   return (
     <div className="px-6">
@@ -19,14 +19,19 @@ const Recipes = () => {
         <input
           type="text"
           placeholder="Name"
-          className="w-[330px] h-[50px] rounded-lg border-2 border-Grey mt-2 outline-0 px-4 py-2"
+          required
+          className="w-[330px] h-[50px] bg-Gray font-medium font-Inter rounded-lg border-2 border-Grey mt-2 outline-0 px-4 py-2"
         />
         <input
           type="file"
           placeholder="recipe image"
+          required
           className="w-[330px] h-[50px] rounded-lg border-2 border-Grey mt-2 outline-0 px-4 py-2"
         />
-        <textarea className="w-[455px] h-[150px] rounded-lg border-2 border-Grey outline-0 mt-2 px-2 py-6">
+        <textarea
+          required
+          className="w-[455px] h-[150px] font-medium font-Inter rounded-lg border-2 border-Grey outline-0 mt-2 px-2 py-6"
+        >
           Enter recipe description
         </textarea>
         <div>

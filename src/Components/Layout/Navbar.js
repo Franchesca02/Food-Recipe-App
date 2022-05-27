@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="px-10 p-4 bg-Dark">
+    <div className="px-10 p-4 bg-Dark sm:hidden">
       <nav className="flex flex-wrap justify-between">
         <div className="w-[70px] h-[60px] rounded-full mt-2">
           <img src={Logo} alt="the logo icon" className="rounded-full" />
@@ -14,7 +14,7 @@ const Navbar = () => {
           <a href="/" className="px-2 hover:underline">
             Home
           </a>
-          <Link to="#about" className="px-2 hover:underline">
+          <Link to="/" className="px-2 hover:underline">
             About
           </Link>
           <a href="/Recipes" className="px-2 hover:underline">
@@ -28,9 +28,11 @@ const Navbar = () => {
             placeholder="Search..."
             className="border-2 w-[200px] h-[35px] rounded-lg px-2 py-2"
           />
-          <button className="ml-2 w-[100px] h-[40px] rounded-lg bg-Wine text-White font-Inter font-base">
-            Contact Us
-          </button>
+          <Link to="/contact">
+            <button className="ml-2 w-[100px] h-[40px] rounded-lg bg-Wine text-White font-Inter font-base">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </nav>
     </div>

@@ -10,9 +10,13 @@ const index = () => {
     <div className="">
       <div>
         <img src={Banner} alt="banner icon" className="w-full" />
-        <div className="absolute bottom-[10px] left-[150px] text-White font-Inter">
-          <h1 className="text-6xl font-bold">Find Your Best Recipes Here</h1>
-          <p className="text-2xl font-medium">Let the cooking begin nonstop</p>
+        <div className="absolute bottom-[10px] left-[150px] text-White font-Inter sm:top-[450px] sm:left-[40px]">
+          <h1 className="text-6xl font-bold sm:text-4xl">
+            Find Your Best Recipes Here
+          </h1>
+          <p className="text-2xl font-medium sm:text-xl py-2 sm:text-Yellow">
+            Let the cooking begin nonstop
+          </p>
         </div>
       </div>
       <div className="mt-2 px-6">
