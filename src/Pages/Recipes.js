@@ -30,9 +30,9 @@ const Recipes = () => {
         />
         <textarea
           required
-          className="w-[455px] h-[150px] font-medium font-Inter rounded-lg border-2 border-Grey outline-0 mt-2 px-2 py-6"
+          className="w-[455px] h-[150px] font-medium text-Grey font-Inter rounded-lg border-2 border-Grey outline-0 mt-2 px-2 py-6"
         >
-          Enter recipe description
+          Enter recipe procedures
         </textarea>
         <div>
           <button

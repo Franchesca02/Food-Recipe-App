@@ -37,14 +37,14 @@ const Navbar = () => {
           <img src={Logo} alt="the logo icon" className="rounded-full" />
         </div>
 
-        <div className="text-Grey mt-6 text-xl font-Inter flex flex-wrap justify-between">
+        <div className="text-Grey mt-8 text-xl font-Inter flex flex-wrap justify-between">
           <a href="/" className="px-2 hover:underline">
             Home
           </a>
           <Link to="/" className="px-2 hover:underline">
             About
           </Link>
-          <a href="/Recipes" className="px-2 hover:underline">
+          <a href="/recipes" className="px-2 hover:underline">
             Create recipes
           </a>
         </div>
