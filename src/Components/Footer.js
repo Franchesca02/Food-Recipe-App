@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="">
-      <footer className="bg-Dark shadow md:flex md:items-center md:justify-between md:p-6 lg:py-16 lg:px-6">
-        <span className="text-base font-Inter text-Grey sm:text-center">
-          © 2022{" "}
-          <a href="/" className="hover:underline">
+      <footer className="bg-Dark shadow flex flex-wrap justify-between py-10 px-10">
+        <div className="text-base flex font-Inter text-Grey sm:w-full py-4">
+          <span>© 2022</span>
+          <Link to="/Recipes" className="hover:underline px-2">
             Food Recipes™
-          </a>
-          . All Rights Reserved.
-        </span>
-        <ul className="flex flex-wrap items-center mt-3 text-base font-Inter text-Grey sm:mt-0">
+          </Link>
+          <p>. All Rights Reserved.</p>
+        </div>
+        <ul className="flex flex-wrap items-center mt-3 text-base font-Inter text-Grey sm:mt-0 sm:w-full">
           <li>
             <Link to="/" className="mr-4 hover:underline md:mr-6 ">
               About

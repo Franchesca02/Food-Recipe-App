@@ -7,12 +7,14 @@ import Veggie from "../../Assets/veggie.jpg";
 
 const Latest = () => {
   return (
-    <div className="font-Inter w-[95%] mx-auto">
-      <h1 className="font-Inter text-3xl font-bold py-6">Latest</h1>
-      <div className="flex flex-wrap justify-between mt-4">
+    <div className="font-Inter w-[95%] mx-auto mt-6">
+      <h1 className="font-Inter text-4xl font-bold py-6 sm:text-center">
+        Latest
+      </h1>
+      <div className="flex flex-wrap justify-between mt-4 sm:w-[70%] mx-auto">
         <div className="mt-2">
           <img src={Fruits} alt="an icon" className="rounded-lg" />
-          <div className="w-full h-[190px] bg-Dark opacity-60 relative bottom-[190px] rounded-lg">
+          <div className="w-full h-[190px] sm:h-[70%] bg-Dark opacity-60 relative bottom-[190px] rounded-lg">
             <div className="flex justify-between w-[240px] relative top-[150px] font-Inter text-xl font-medium hover:text-2xl hover:text-Wine hover:font-bold hover:w-[250px]">
               <p className="text-White px-2 over:text-Wine">35 mins</p>
 
@@ -30,7 +32,7 @@ const Latest = () => {
         </div>
         <div className="mt-2">
           <img src={Veggie} alt="an icon" className="rounded-lg" />
-          <div className="w-full h-[190px] bg-Dark opacity-60 relative bottom-[190px] rounded-lg">
+          <div className="w-full h-[190px] sm:h-[70%] bg-Dark opacity-60 relative bottom-[190px] rounded-lg">
             <div className="flex justify-between w-[240px] relative top-[150px] font-Inter text-xl font-medium hover:text-2xl hover:text-Wine hover:font-bold hover:w-[250px]">
               <p className="text-White px-2 over:text-Wine">25 mins</p>
               {/* <img src={Clock} alt="a clock" className="text-White" /> */}
@@ -48,7 +50,7 @@ const Latest = () => {
         </div>
         <div className="mt-2">
           <img src={Swallow} alt="an icon" className="rounded-lg" />
-          <div className="w-full h-[190px] bg-Dark opacity-60 relative bottom-[190px] rounded-lg">
+          <div className="w-full h-[190px] sm:h-[70%] bg-Dark opacity-60 relative bottom-[190px] rounded-lg">
             <div className="flex justify-between w-[240px] relative top-[150px] font-Inter text-xl font-medium hover:text-2xl hover:text-Wine hover:font-bold hover:w-[250px]">
               <p className="text-White px-2 over:text-Wine">55 mins</p>
               {/* <img src={Clock} alt="a clock" className="text-White" /> */}
@@ -67,7 +69,7 @@ const Latest = () => {
 
         <div className="mt-2">
           <img src={Fruits} alt="an icon" className="rounded-lg" />
-          <div className="w-full h-[190px] bg-Dark opacity-60 relative bottom-[190px] rounded-lg">
+          <div className="w-full h-[190px] sm:h-[70%] bg-Dark opacity-60 relative bottom-[190px] rounded-lg">
             <div className="flex justify-between w-[240px] relative top-[150px] font-Inter text-xl font-medium hover:text-2xl hover:text-Wine hover:font-bold hover:w-[250px]">
               <p className="text-White px-2 over:text-Wine">35 mins</p>
               {/* <img src={Clock} alt="a clock" className="text-White" /> */}

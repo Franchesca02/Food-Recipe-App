@@ -27,16 +27,16 @@ const index = () => {
         <Latest />
       </div>
       <section id="about">
-        <div className="flex fles-wrap justify-between w-[90%] mx-auto py-6">
-          <div className="w-[58%] bg-Wine rounded-tl-lg">
+        <div className="flex flex-wrap justify-between w-[90%] mx-auto py-6">
+          <div className="w-[58%] bg-Wine rounded-tl-lg sm:w-full mt-4">
             <img
               src={Food11}
               alt="a food icon"
               className="bg-Wine rounded-tl-full rounded-br-lg"
             />
           </div>
-          <div className="w-[40%] rounded-tr-3xl bg-Yellow">
-            <h3 className="font-Inter font-medium text-2xl text-center py-2">
+          <div className="w-[40%] sm:w-full rounded-tr-3xl bg-Yellow mt-4 py-4">
+            <h3 className="font-Inter font-medium text-2xl text-center py-2 sm:underline">
               About Us
             </h3>
             <p className="font-Inter font-medium text-base w-[70%] mx-auto">

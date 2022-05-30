@@ -7,25 +7,27 @@ import Food14 from "../../Assets/food14.png";
 const Categories = () => {
   return (
     <div className="w-[95%] mx-auto">
-      <h1 className="font-Inter text-3xl font-bold py-6">Top Categories</h1>
-      <div className="flex flex-wrap justify-between mt-4">
-        <div className="mt-2">
+      <h1 className="font-Inter text-3xl font-bold py-6 sm:text-center">
+        Top Categories
+      </h1>
+      <div className="flex flex-wrap justify-between mt-4 sm:w-[70%] mx-auto">
+        <div className="mt-2 sm:text-center">
           <img src={Food5} alt="food icon" className="w-[300px] rounded-lg" />
 
           <p className="text-xl font-bold">Vegetables and nuts</p>
           <p className="text-Grey text-base font-medium mt-2">1,385 recipes</p>
         </div>
-        <div className="mt-2">
+        <div className="mt-2 sm:text-center">
           <img src={Burger} alt="food icon" className="w-[300px] rounded-lg" />
           <p className="text-xl font-bold">Fresh vegetables</p>
           <p className="text-Grey text-base font-medium mt-2">8,105 recipes</p>
         </div>
-        <div className="mt-2">
+        <div className="mt-2 sm:text-center">
           <img src={Food8} alt="food icon" className="w-[300px] rounded-lg" />
           <p className="text-xl font-bold pt-2">Steaks and maize</p>
           <p className="text-Grey text-base font-medium mt-2">5,971 recipes</p>
         </div>
-        <div className="mt-2">
+        <div className="mt-2 sm:text-center">
           <img src={Food14} alt="food icon" className="w-[300px] rounded-lg" />
           <p className="text-xl font-bold">Deserts</p>
           <p className="text-Grey text-base font-medium mt-2">5,246 recipes</p>
