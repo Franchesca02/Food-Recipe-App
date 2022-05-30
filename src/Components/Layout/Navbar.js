@@ -44,9 +44,9 @@ const Navbar = () => {
           <Link to="/" className="px-2 hover:underline">
             About
           </Link>
-          <a href="/recipes" className="px-2 hover:underline">
+          <Link to="/Recipes" className="px-2 hover:underline">
             Create recipes
-          </a>
+          </Link>
         </div>
 
         <div className=" flex mt-2 hover:underline">
