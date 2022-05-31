@@ -18,7 +18,7 @@ const Contact = () => {
       </div>
       <div className="mt-10 py-6">
         <form onSubmit={handleSubmit} className="grid py-4 bg-White">
-          <div className="flex flex-wrap justify-between w-[53%] mx-auto">
+          <div className="flex flex-wrap justify-between w-[53%] mx-auto sm:w-[75%]">
             <div className="grid">
               <input
                 type="text"

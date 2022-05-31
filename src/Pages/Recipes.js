@@ -23,6 +23,13 @@ const Recipes = () => {
           className="w-[330px] h-[50px] bg-Gray font-medium font-Inter rounded-lg border-2 border-Grey mt-2 outline-0 px-4 py-2"
         />
         <input
+          type="email"
+          placeholder="Email address"
+          required
+          autoComplete="true"
+          className="w-[330px] h-[50px] bg-Gray font-medium font-Inter rounded-lg border-2 border-Grey mt-2 outline-0 px-4 py-2"
+        />
+        <input
           type="file"
           placeholder="recipe image"
           required
@@ -30,7 +37,7 @@ const Recipes = () => {
         />
         <textarea
           required
-          className="w-[455px] h-[150px] font-medium text-Grey font-Inter rounded-lg border-2 border-Grey outline-0 mt-2 px-2 py-6"
+          className="w-[455px] h-[150px] sm:w-[370px] sm:h-[120px] font-medium text-Grey font-Inter rounded-lg border-2 border-Grey outline-0 mt-2 px-2 py-6"
         >
           Enter recipe procedures
         </textarea>
@@ -38,7 +45,7 @@ const Recipes = () => {
           <button
             type="submit"
             onClick={handleSubmit}
-            className="w-[180px] h-[50px] rounded-2xl bg-Wine text-Grey font-Inter font-medium mt-12 ml-2"
+            className="w-[140px] h-[50px] rounded-2xl bg-Wine text-Grey font-Inter font-medium mt-12 ml-2"
           >
             Submit recipe
           </button>
