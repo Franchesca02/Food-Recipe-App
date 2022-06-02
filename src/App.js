@@ -6,6 +6,7 @@ import Recipes from "./Pages/Recipes";
 import Contact from "./Pages/Contact";
 import Policy from "./Pages/Policy";
 import ResponsiveNav from "./Components/Layout/ResponsiveNav";
+import Nutrients from "./Components/All-menus/Nutrients";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/policy" element={<Policy />} />
+          <Route path="/nutrients" element={<Nutrients />} />
         </Routes>
         <Footer />
       </BrowserRouter>

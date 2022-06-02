@@ -34,13 +34,15 @@ const Navbar = () => {
     <div className="px-10 p-4 bg-Dark sm:hidden">
       <nav className="flex flex-wrap justify-between">
         <div className="w-[70px] h-[60px] rounded-full mt-6">
-          <img src={Logo} alt="the logo icon" className="rounded-full" />
+          <Link to="/">
+            <img src={Logo} alt="the logo icon" className="rounded-full" />
+          </Link>
         </div>
 
         <div className="text-Grey mt-8 text-xl font-Inter flex flex-wrap justify-between">
-          <a href="/" className="px-2 hover:underline">
+          <Link to="/" className="px-2 hover:underline">
             Home
-          </a>
+          </Link>
           <Link to="/" className="px-2 hover:underline">
             About
           </Link>

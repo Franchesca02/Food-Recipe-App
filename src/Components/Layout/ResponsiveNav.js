@@ -7,10 +7,12 @@ import { Link } from "react-router-dom";
 const ResponsiveNav = () => {
   const [show, setShow] = useState(true);
   return (
-    <div className="hidden sm:block w-full h-[367px] bg-Dark px-4">
+    <div className="hidden sm:block w-full bg-Dark px-4">
       <div className="flex justify-between">
         <div className="w-[70px] h-[60px] rounded-full mt-2">
-          <img src={Logo} alt="the logo icon" className="rounded-full" />
+          <Link to="/">
+            <img src={Logo} alt="the logo icon" className="rounded-full" />
+          </Link>
         </div>
         <div className="hidden sm:block py-4">
           <button
